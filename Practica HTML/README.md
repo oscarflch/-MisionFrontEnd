@@ -1,4 +1,4 @@
 # Practica-HTML
- Practica HTML (Prueba)
+ Practica HTML
  
 <a href="https://flores-oz.github.io/Practica-HTML/">Link del Sitio</a>
