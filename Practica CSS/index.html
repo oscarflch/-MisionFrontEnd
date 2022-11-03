@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vaccination</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="features.css" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <span class="fs-4">Vaccination</span>
+        </a>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link">Database</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Regulation</a></li>
+          <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Hoax Buster</a></li>
+        </ul>
+      </header>
+    </div>
+
+    <!-- Fondo Pantalla -->>
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="https://th.bing.com/th/id/OIP.5hBCazW5bQ_5guKUsMo1tAHaHa?pid=ImgDet&rs=1"
+            class="d-block mx-lg-auto img-fluid" alt="Enfermera" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Fight Virus With Vaccines</h1>
+          <p class="lead">Let's stop this pandemic by killing the Virus
+            with a vaccine, don't let yourself and your
+            family get infected.</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <img src="https://th.bing.com/th/id/OIP.RgUQVVjoXZ2PpfOfM_aehAHaHC?pid=ImgDet&rs=1" alt="Star" width="32"
+              height="32" class="rounded-circle border border-white">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Select Vaccines</button>
+            <img src="https://www.pngitem.com/pimgs/m/4-47858_shield-icon-shield-emoji-hd-png-download.png" alt="Star"
+              width="32" height="32" class="rounded-circle border border-white">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Best Proteccion</button>
+          </div>
+        </div>
+
+        <!---->
+
+        <div class="container px-4 " id="featured-3">
+          <h2 class="pb-2 border-bottom">Schedule your Vaccinations</h2>
+          <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+
+            <div class="feature col">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <img src="https://th.bing.com/th/id/OIP.QmyAtSmQwmk9-3wdprmUMQHaHa?pid=ImgDet&w=480&h=480&rs=1"
+                  alt="Star" width="32" height="32">
+              </div>
+              <div>
+                <h3 class="display-6 fw-bold lh-1 mb-3">Location</h3>
+                <td><select name="lugar" id="lugar" value="lugar" class="form-control">
+                    <option value="site1">Site 1</option>
+                    <option value="site2" selected>Site 2</option>
+                    <option value="site3">Site 3</option>
+                  </select></td>
+              </div>
+            </div>
+
+            <div class="feature col">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <img src="https://th.bing.com/th/id/R.17c1cb2cae630e50bd8eea7a9c181a40?rik=rtlx6z7mp1h7yA&pid=ImgRaw&r=0"
+                  alt="Star" width="32" height="32">
+              </div>
+              <div>
+                <h3 class="display-6 fw-bold lh-1 mb-3">Date</h3>
+                <td><input type="date" id="date" name="date" required class="form-control"></td>
+              </div>
+            </div>
+
+            <div class="feature col">
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <img src="https://th.bing.com/th/id/OIP.ONCcBdj_jCMYzgS-v95nFgHaHX?pid=ImgDet&w=900&h=895&rs=1" alt="Star"
+                  width="32" height="32">
+              </div>
+              <div>
+                <h3 class="display-6 fw-bold lh-1 mb-3">Vaccine Type</h3>
+                <td><select name="lugar" id="lugar" value="lugar" required class="form-control">
+                    <option value="astrazeneca">Astrazeneca</option>
+                    <option value="pfizer" selected>Pfizer</option>
+                    <option value="moderna">Moderna"</option>
+                  </select></td>
+              </div>
+            </div>
+
+            <div class="feature col">
+              <div class="display-6 fw-bold lh-1 mb-3">
+                <img
+                  src="https://th.bing.com/th/id/R.7449027c005780b3319a9785234235f4?rik=pZBMBIGa3ed9Eg&pid=ImgRaw&r=0"
+                  alt="Star" width="32" height="32">
+              </div>
+              <div>
+                <a href="#" class="btn btn-primary">
+                  Submit
+                </a>
+              </div>
+            </div>
+
+          </div>       
+        </div>
+      </div>
+    </div>
+
+    <!---->
+    
+    <div class="container px-4 ">
+      <img src="img/backgroundVacunas.png" class="d-block mx-lg-auto img-fluid" alt="Enfermera" width="700" height="500"
+        loading="lazy">
+    </div>
+
+
+    <!-- Iconos del Porque Vacunarse-->>
+    <div class="container " id="featured-3">
+      <h2 class="pb-2 border-bottom">Why should I vaccine?</h2>
+      <p class="lead">In order to avoid any doubts about getting the COVID-19
+        vaccine, identify the following 4 benefits of COVID-19 vaccination:</p>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
+
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="https://th.bing.com/th/id/OIP.QmyAtSmQwmk9-3wdprmUMQHaHa?pid=ImgDet&w=480&h=480&rs=1" alt="Star"
+              width="32" height="32">
+          </div>
+          <h3 class="fs-2">Minimize the spread of viruses</h3>
+          <p>Vaccine has been proven effective to prevent someone from getting infected with Coronavirus.</p>
+        </div>
+
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="https://www.pngitem.com/pimgs/m/4-47858_shield-icon-shield-emoji-hd-png-download.png" alt="Star"
+              width="32" height="32">
+          </div>
+          <h3 class="fs-2">Forming Antibodies</h3>
+          <p>COVID-19 vaccine proven to help shape antibody response for inmune system.</p>
+        </div>
+
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="https://th.bing.com/th/id/OIP.5zSl53MlNgFwqAprSNM2NwHaHa?pid=ImgDet&rs=1" alt="Star" width="32"
+              height="32">
+          </div>
+          <h3 class="fs-2">Protecting people nearby</h3>
+          <p>The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us.
+          </p>
+        </div>
+
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <img src="https://static.vecteezy.com/system/resources/previews/000/441/054/original/vector-chat-icon.jpg"
+              alt="Star" width="32" height="32">
+          </div>
+          <h3 class="fs-2">Creating group immunity</h3>
+          <p>COVID-19 vaccination is also beneficial for creating group immunity or herd immunity.</p>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Otra Seccion-->>
+
+    <div class="container col-xxl-8 px-1 py-1">
+
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+        <div class="col-sm-8 col-lg-6 order-md-1">
+          <img src="https://http2.mlstatic.com/D_NQ_NP_2X_846054-MLM25675255223_062017-F.jpg"
+            class="d-block mx-lg-auto img-fluid" alt="Enfermera" width="700" height="500" loading="lazy">
+
+        </div>
+
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Preparations Before Vaccine</h1>
+          <p class="lead">The Success of vaccines is strongly influnced by the strength
+            of the body's immune system. Therefore, there are several things
+            that can be tried to make the COVID-19 vaccine work:</p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+
+            <div class="list-group w-auto">
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="https://cdn1.iconfinder.com/data/icons/security-4/32/shield-ex-1024.png" alt="twbs" width="32"
+                  height="32" class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Avoid alcoholic beverages</h6>
+                  </div>
+                  <small class="opacity-50 text-nowrap">▼</small>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img src="https://th.bing.com/th/id/OIP.Dubai7MRYA8XPoW8MwrViQHaHa?pid=ImgDet&rs=1" alt="twbs"
+                  width="32" height="32" class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Avoid Strees</h6>
+                    <p class="mb-0 opacity-75">Stress has a profound effect on immune work Moreover, prolonged stress
+                      can increase cortisol production and oxidative stress in the body.</p>
+                  </div>
+                  <small class="opacity-50 text-nowrap">▲</small>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/000/421/582/original/vector-statistics-icon.jpg"
+                  alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Eat Healthy food</h6>
+                  </div>
+                  <small class="opacity-50 text-nowrap">▼</small>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img
+                  src="https://img.favpng.com/14/19/21/check-mark-computer-icons-checkbox-emoticon-clip-art-png-favpng-Wip6JYZFThMa3SGsbDAjFGFPy.jpg"
+                  alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Get enough sleep</h6>
+                  </div>
+                  <small class="opacity-50 text-nowrap">▼</small>
+                </div>
+              </a>
+              <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+                <img
+                  src="https://static.vecteezy.com/system/resources/previews/000/572/759/original/heart-icon-vector-illustration.jpg"
+                  alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
+                <div class="d-flex gap-2 w-100 justify-content-between">
+                  <div>
+                    <h6 class="mb-0">Exercise or Physical Activity</h6>
+                  </div>
+                  <small class="opacity-50 text-nowrap">▼</small>
+                </div>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Otra Seccion-->>
+
+    <div class="container col-xxl-8 px-1 py-1">
+
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="https://i.pinimg.com/474x/60/26/df/6026df41d00985a32d05e5b4ce27e150.jpg"
+            class="d-block mx-lg-auto img-fluid" alt="Enfermera" width="700" height="500" loading="lazy">
+        </div>
+
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold lh-1 mb-3">Emergency Contact</h1>
+          <p class="lead">Contact one of the contacts below if you or your family feel unwell
+            and have similar symptoms such as COVID-19, make sure you also take care of yourself
+            before reporting to us:
+          </p>
+
+          <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+
+            <div class="col d-flex align-items-start">
+              <img src="https://th.bing.com/th/id/OIP.BKjZ-m2JhZVKUu52oXxiwQHaHa?pid=ImgDet&rs=1" alt="Star" width="32"
+                height="32">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Call</h3>
+                <p>021.123.145.14.</p>
+                <button type="button" class="btn btn-outline-primary">Call Now</button>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+              <img src="https://th.bing.com/th/id/OIP.boheVN6EMh0DUJkqyMVKnAHaHa?pid=ImgDet&rs=1" alt="Star" width="32"
+                height="32">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Chat</h3>
+                <p>021.123.145.14</p>
+                <button type="button" class="btn btn-primary">Chat Now</button>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+              <img src="https://th.bing.com/th/id/OIP.JPx4lxd63Urtf41_tijr9AHaHa?pid=ImgDet&w=576&h=576&rs=1" alt="Star"
+                width="32" height="32">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Video Call</h3>
+                <p>021.123.145.14</p>
+                <button type="button" class="btn btn-outline-primary">Video Call Now</button>
+              </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+              <img src="https://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Message-icon.png"
+                alt="Star" width="32" height="32">
+              <div>
+                <h3 class="fw-bold mb-0 fs-4">Message</h3>
+                <p>021.123.145.14</p>
+                <button type="button" class="btn btn-outline-primary">Message Now</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- -->
+
+
+    </div>
+    </div>
+  </main>
+
+  <div class="container">
+    <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+      <div class="col mb-3">
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Vaccination</h5>
+            <p>Our goal is to help the world free from the ongoing pandemic.</p>
+          </form>
+        </div>
+        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+        <p class="text-muted">@2021 Vacinnation. All rights reserved</p>
+      </div>
+
+      <div class="col mb-3">
+
+      </div>
+
+      <div class="col mb-3">
+        <h5>About</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">News & Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Company</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">How We Work</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Capital</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Security</a></li>
+        </ul>
+      </div>
+
+      <div class="col mb-3">
+        <h5>Support</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Support Center</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js "
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
