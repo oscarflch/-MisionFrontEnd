@@ -2,7 +2,7 @@
 
 Practica en la cual se crea la documentación necesaria para una empresa al momento de desarrollar un proyecto
 
-## Roadmap
+## Elementos
 
 - <a href="Board.pdf">Board</s>
 
