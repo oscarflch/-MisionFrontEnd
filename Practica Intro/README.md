@@ -4,7 +4,6 @@ Practica en la cual se crea la documentación necesaria para una empresa al mome
 
 ## Roadmap
 
-- Board 
-  <a href="Board.pdf"></s>
+- <a href="Board.pdf">Board</s>
 
 - Add more integrations
